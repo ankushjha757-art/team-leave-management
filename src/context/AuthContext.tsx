@@ -1,10 +1,10 @@
 import {
-  ReactNode,
   createContext,
   useContext,
   useEffect,
   useState,
 } from 'react'
+import type { ReactNode } from 'react'
 import type { AppUser } from '../types'
 import { apiLogin, apiMe } from '../api'
 

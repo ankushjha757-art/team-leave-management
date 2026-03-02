@@ -1,6 +1,6 @@
 import type { AppUser, LeaveRequest } from './types'
 
-const API_BASE = 'http://localhost:4000/api'
+const API_BASE = 'https://team-leave-management.onrender.com/api'
 
 export interface LoginResult {
   token: string
@@ -12,9 +12,9 @@ async function request<T>(
   options: RequestInit = {},
   token?: string | null,
 ): Promise<T> {
-  const headers: HeadersInit = {
+  const headers: Record<string, string> = {
     'Content-Type': 'application/json',
-    ...(options.headers || {}),
+    ...(options.headers as Record<string, string> | undefined),
   }
   if (token) {
     headers.Authorization = `Bearer ${token}`

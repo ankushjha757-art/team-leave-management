@@ -1,3 +1,4 @@
+import type { ReactElement } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { useAuth } from './context/AuthContext'
@@ -6,7 +7,7 @@ import { EmployeeDashboard } from './pages/EmployeeDashboard'
 import { ManagerDashboard } from './pages/ManagerDashboard'
 import { ProfilePage } from './pages/ProfilePage'
 
-function ProtectedRoute({ children }: { children: JSX.Element }) {
+function ProtectedRoute({ children }: { children: ReactElement }) {
   const { token, loading } = useAuth()
 
   if (loading) {

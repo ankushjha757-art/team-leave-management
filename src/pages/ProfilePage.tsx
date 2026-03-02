@@ -1,6 +1,7 @@
-import { FormEvent, useState } from 'react'
-import { Layout } from '../components/Layout'
+import type { FormEvent } from 'react'
+import { useState } from 'react'
 import { useAuth } from '../context/AuthContext'
+import { Layout } from '../components/Layout'
 import { apiChangePassword } from '../api'
 
 export function ProfilePage() {
