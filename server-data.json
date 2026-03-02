@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Mr. Nikhil Yadav",
+      "email": "nikhil@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u2",
+      "name": "Mr. Lalit Singh Bisht",
+      "email": "lalit@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u3",
+      "name": "Mr. Girdhar Singh",
+      "email": "girdhar@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u4",
+      "name": "Mr. Abhinandan Shukla",
+      "email": "abhinandan@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u5",
+      "name": "Mr. Mohd Aquib",
+      "email": "aquib@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u6",
+      "name": "Ms. Dipali Singh",
+      "email": "dipali@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u7",
+      "name": "Mr. Ashutosh Srivastava",
+      "email": "ashutosh@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u8",
+      "name": "Mr. Kunj Bihari Tiwari",
+      "email": "kunj@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u9",
+      "name": "Mr. Subham Kumar",
+      "email": "subham@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u10",
+      "name": "Mr. Naseem Akhtar",
+      "email": "naseem@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u11",
+      "name": "Ms. Ranjana Maddheshiya",
+      "email": "ranjana@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u12",
+      "name": "Mr. Pawan Singh",
+      "email": "pawan@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u13",
+      "name": "Mr. Abhishek Kumar Soni",
+      "email": "abhishek@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u14",
+      "name": "Mr. Ankush Kumar Jha",
+      "email": "ankush@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "u15",
+      "name": "Mr. Mukesh Sahu",
+      "email": "mukesh@team.local",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "employee"
+    },
+    {
+      "id": "manager1",
+      "name": "Mr. Satyam Patel",
+      "email": "satyam@team.local",
+      "passwordHash": "866485796cfa8d7c0cf7111640205b83076433547577511d81f8030ae99ecea5",
+      "role": "manager"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "leave_1772391058101_15nw3v",
+      "employeeId": "u1",
+      "employeeName": "Mr. Nikhil Yadav",
+      "startDate": "2026-03-02",
+      "endDate": "2026-03-02",
+      "type": "Casual",
+      "reason": "jhuihgfyhgv",
+      "status": "approved",
+      "createdAt": "2026-03-01T18:50:58.101Z",
+      "updatedAt": "2026-03-01T18:52:07.555Z"
+    },
+    {
+      "id": "leave_1772391230550_7typ87",
+      "employeeId": "u3",
+      "employeeName": "Mr. Girdhar Singh",
+      "startDate": "2026-03-02",
+      "endDate": "2026-03-02",
+      "type": "Casual",
+      "reason": "",
+      "status": "rejected",
+      "createdAt": "2026-03-01T18:53:50.550Z",
+      "updatedAt": "2026-03-01T18:56:14.531Z"
+    },
+    {
+      "id": "leave_1772391261237_fed26w",
+      "employeeId": "u5",
+      "employeeName": "Mr. Mohd Aquib",
+      "startDate": "2026-03-02",
+      "endDate": "2026-03-02",
+      "type": "Casual",
+      "reason": "",
+      "status": "approved",
+      "createdAt": "2026-03-01T18:54:21.237Z",
+      "updatedAt": "2026-03-01T18:56:17.199Z"
+    },
+    {
+      "id": "leave_1772391304333_grhpry",
+      "employeeId": "u14",
+      "employeeName": "Mr. Ankush Kumar Jha",
+      "startDate": "2026-03-02",
+      "endDate": "2026-03-02",
+      "type": "Casual",
+      "reason": "",
+      "status": "approved",
+      "createdAt": "2026-03-01T18:55:04.333Z",
+      "updatedAt": "2026-03-01T18:56:20.948Z"
+    }
+  ]
+}
