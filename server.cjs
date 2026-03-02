@@ -73,7 +73,11 @@ async function seedUsersIfEmpty() {
 // ===== Express setup =====
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://localhost:5174'],
+    origin: [
+      'http://localhost:5173',
+      'http://localhost:5174',
+      'https://team-leave-management.netlify.app',
+    ],
   }),
 )
 app.use(express.json())
